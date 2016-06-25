@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class API</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-API.html">API</a></li>
+				<li><a href="class-TestAPI.html">TestAPI</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class API</h1>
+
+
+
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-TestAPI.html">TestAPI</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		<b>Abstract</b><br>
+		
+		
+		
+
+			<b>Located at</b> <a href="source-class-API.html#3-129" title="Go to source code">API.class.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-API.html#34-76" title="Go to source code">__construct</a>( <span> <var>$request</var></span> )</code>
+
+		<div class="description short">
+			<p>Constructor: __construct
+Allow for CORS, assemble and pre-process the data</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Constructor: __construct
+Allow for CORS, assemble and pre-process the data</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="processAPI" id="_processAPI">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_processAPI">#</a>
+		<code><a href="source-class-API.html#78-88" title="Go to source code">processAPI</a>( )</code>
+
+		<div class="description short">
+			<p>Public Function: processAPI
+Determines if API contains method for requested endpoint.
+Calls specified method or 404s.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Public Function: processAPI
+Determines if API contains method for requested endpoint.
+Calls specified method or 404s.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="method" id="$method">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-API.html#5-9" title="Go to source code"><var>$method</var></a>
+
+			<div class="description short">
+				<p>Property: method
+The HTTP method this request was made in, either GET, POST, PUT or DELETE</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Property: method
+The HTTP method this request was made in, either GET, POST, PUT or DELETE</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$method" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="endpoint" id="$endpoint">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-API.html#10-14" title="Go to source code"><var>$endpoint</var></a>
+
+			<div class="description short">
+				<p>Property: endpoint
+The Model requested in the URI. eg: /files</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Property: endpoint
+The Model requested in the URI. eg: /files</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$endpoint" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="verb" id="$verb">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-API.html#15-20" title="Go to source code"><var>$verb</var></a>
+
+			<div class="description short">
+				<p>Property: verb
+An optional additional descriptor about the endpoint, used for things that can
+not be handled by the basic methods. eg: /files/process</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Property: verb
+An optional additional descriptor about the endpoint, used for things that can
+not be handled by the basic methods. eg: /files/process</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$verb" class="anchor">#</a>
+				<code><span class="php-quote">''</span></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="args" id="$args">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-API.html#21-27" title="Go to source code"><var>$args</var></a>
+
+			<div class="description short">
+				<p>Property: args
+Any additional URI components after the endpoint and verb have been removed, in our
+case, an integer ID for the resource. eg: /<endpoint>/<verb>/<arg0>/<arg1>
+or /<endpoint>/<arg0></p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Property: args
+Any additional URI components after the endpoint and verb have been removed, in our
+case, an integer ID for the resource. eg: /<endpoint>/<verb>/<arg0>/<arg1>
+or /<endpoint>/<arg0></p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$args" class="anchor">#</a>
+				<code><span class="php-keyword1">Array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="file" id="$file">
+		<td class="attributes"><code>
+			protected  
+			
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-API.html#28-32" title="Go to source code"><var>$file</var></a>
+
+			<div class="description short">
+				<p>Property: file
+Stores the input of the PUT request</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Property: file
+Stores the input of the PUT request</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$file" class="anchor">#</a>
+				<code><span class="php-keyword1">Null</span></code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
